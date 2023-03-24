@@ -1,0 +1,297 @@
+*{
+ box-sizing: border box;
+}
+.clearfix:after{
+  content: ".";
+  display:block;
+  clear:both;
+  visibility: hidden;
+  line-height: o;
+  height: 0;
+  }
+  .clear{
+  clear: both;
+  }
+
+header{
+height:100px;
+width:100%;
+clear:both;
+}
+
+header ul li{
+float:left;
+width:10%;
+list-style: none;
+}
+
+.firsttop{
+Height:500px;
+width:100%;
+background:rgb(241,243,245);
+float:left;
+}
+
+.part1{
+height:105px;
+width:62%;
+float: left;
+margin-top:140px;
+margin-left: 26px;
+}
+
+.logo{
+width:20%;
+height:98px;
+border:1px solid black;
+margin-left:-517px;
+margin-top:29px;
+}
+
+.woman{
+width:27%;
+margin-top: -180px;
+margin-right:81px;
+float:right;
+}
+
+.part2{
+height:104px;
+width:60%;
+float:left;
+margin-top:67px;
+}
+
+
+.first{
+height:300px;
+width:100%;
+float:left;
+}
+
+.first h2{
+text-align: center;
+}
+
+.small1{
+height:50px;
+width:50%;
+float:left;
+}
+
+.small2{
+height:50px;
+width:49%;  
+float:left;
+} 
+
+.down{
+height:100px;
+width:100%;
+float:left;
+text-align:center;
+}
+
+.bigbox{
+height:500px;
+width:100%;
+border:1px solid black;
+background:rgb(235, 235, 242);
+float:left;
+}
+
+.box1{
+height:500px;
+width:70%;
+border:1px solid black;
+float:left;
+}
+
+
+.box2{ 
+height:500px; 
+width:29%;
+float:left;
+}
+
+.box2>img{
+width: 79%;
+}
+
+.who{
+width:100%;
+float:left;
+}
+
+.who h2{
+text-align:center;
+}
+
+.founder{
+height:300px;
+width:87%;
+margin-left:46px;
+}
+
+.founder img{
+width:20%;
+}
+
+.founder p{
+margin-left:262px;
+margin-top:-126px;
+}
+
+
+.fish{
+height:298px;
+width:49.5%;
+float:left;
+}
+
+.simmons{
+height:298px;
+width:49.8%;
+float:left;
+}
+
+
+.signup{
+height:100px;
+width:100%;
+background: rgb(134, 134, 193);
+float:left;
+}
+
+footer{
+height:500px;
+width:100%;
+background:rgb(199, 195, 195);
+float:left;
+}
+
+ul li{
+list-style: none;
+}
+
+.copyright h5{
+width:50%;
+float:left;
+color:white;
+margin-top: 20px;
+text-align:center;
+}
+
+.copyright ul li{
+width:12%;
+margin-top:20px;
+color:white;
+float:right;
+}
+
+footer .list{
+height:150px;
+width:50%;
+float:left;
+margin-top:20px;
+}
+
+footer .list ul li{
+width:63%;
+float:left;
+color:white;
+text-align:center;
+}
+
+footer.lastpart{
+height:100px;
+width:50%;
+float:left;
+}
+footer .lastpart ul li{
+width:15%;
+margin-top:20px;
+border:1px solid black;
+color:white;
+float:left;
+text-align:center;
+}
+
+
+/*STYLESSSSSS*/
+
+@media (max-width:1024px){
+.box1{
+width:100%;
+}
+
+.box2 img{
+display:none;
+}
+}
+
+@media (max-width:890px){
+.founder p{
+margin-left:250px;
+margin-top:-126px;
+}
+.fish{
+display:none;
+}
+
+.simmons{
+display:none;
+}
+
+.small1, .small2 {
+width:100%;
+}
+}
+
+@media (min-width:891px) and (max-width:1019px){
+.small1, .small2{
+width:100%;
+}
+}
+
+@Media (max-width:790px){
+.logo{
+margin-left:-300px;
+}
+
+
+.woman{
+margin-top: -20px;
+margin-right:80px;
+}
+
+
+.woman{
+margin-top: -153px;
+margin-right:59px;
+}
+}
+
+@media(max-width:890px){  
+  .who h2{
+  text-align:left;
+  }
+  .founder p{
+  font-size:.63rem;
+  }
+
+.box1{
+font-size:.87rem;
+}
+
+.list ul li{
+display:none;
+}
+}
+
+@media (max-width:512px){
+.copyright ul li{
+width:18%;
+}
+}
+
